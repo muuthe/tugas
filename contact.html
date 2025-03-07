@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portofolio Rahmatullah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="fade-in">Hubungi Saya</h1>
+        <p class="fade-in">Email: rahmatullahhu0@gmail.com</p>
+        <p class="fade-in">Telepon: 08876076843</p>
+        <section id="contact">
+    <h2>Kontak Saya</h2>
+    <p>Silakan isi formulir di bawah untuk menghubungi saya.</p>
+    
+    <form action="proses-kontak.php" method="POST">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="4" required></textarea>
+
+        <button type="submit">Kirim</button>
+    </form>
+</section>
+
+    </header>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
